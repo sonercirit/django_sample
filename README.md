@@ -27,13 +27,13 @@ pip install -r requirements.txt
 ```
 python manage.py migrate
 ```
-* run app
-```
-python manage.py runserver
-```
 * populate db for testing (first argument specifies the vehicle count while the other specifies navigation record count for each vehicle)
 ```
 python manage.py populate 100 1000
+```
+* run app
+```
+python manage.py runserver
 ```
 * access to the testing endpoint
 ```
