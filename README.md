@@ -31,6 +31,10 @@ python manage.py migrate
 ```
 python manage.py runserver
 ```
+* populate db for testing (first argument specifies the vehicle count while the other specifies navigation record count for each vehicle)
+```
+python manage.py populate 100 1000
+```
 * access to the testing endpoint
 ```
 http://127.0.0.1:8000/sample_app/last_points
